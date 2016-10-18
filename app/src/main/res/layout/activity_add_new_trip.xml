@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--tools:context="in.mumbaitravellers.mtleaders.AddNewTrip"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Event Name"
+            android:id="@+id/edTxt_EventName" />
+
+      <!--  <Spinner
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner_Division" />-->
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Divisions Head"
+            android:id="@+id/edTxt_DivisionHead" />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="date"
+            android:ems="10"
+            android:hint="Event Start Date"
+            android:id="@+id/edTxt_EventSDate" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="date"
+            android:ems="10"
+            android:hint="Event End Date"
+            android:id="@+id/edTxt_EventEDate" />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Leader"
+            android:id="@+id/edTxt_Leader" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="Cash Carried on Tour"
+            android:id="@+id/edTxt_CashCarried" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="Tour Cost"
+            android:id="@+id/edTxt_TourCost" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="On Tour Collection"
+            android:id="@+id/edTxt_TourCollection" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="Pre Registered Travellers"
+            android:id="@+id/edTxt_PreTravellers" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="On the spot Registered Travellers"
+            android:id="@+id/edTxt_NewTravellers" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="Cancellations"
+            android:id="@+id/edTxt_Cancel" />
+
+        <!--<Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Add Event"
+            android:id="@+id/btn_AddEvent" />-->
+
+
+    </LinearLayout>
+
+</ScrollView>
